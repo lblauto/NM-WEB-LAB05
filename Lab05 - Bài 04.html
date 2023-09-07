@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bài tập JavaScript (NC) - Các thao tác trên mảng</title>
+    <script src="Thu-vien.js"></script>
+    <script src="Lab05 - Bài 04.js"></script>
+    <link rel="stylesheet" type="text/css" href="Lab05 - Bài 04.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Các thao tác trên mảng</h1>
+        <table>
+        	<tr>
+        		<td><button onclick="taoMang()">Tạo mảng</button></td>
+        		<td><div id="mangResult"></div></td>
+        	</tr>
+        	<tr>
+        		<td colspan="2"><div id="mangkqResult"></div></td>
+        	</tr>
+        	<tr>
+        		<td colspan="2">
+        			<label id="sortDirectionLabel" for="sortDirection">Sắp xếp:</label>
+			        <select id="sortDirection">
+			            <option value="asc">Tăng</option>
+			            <option value="desc">Giảm</option>
+			        </select>
+			        <button onclick="Sapxep()">OK</button>
+        		</td>
+        	</tr>
+        	<tr class="insert-section">
+        		<td colspan="2">
+        			<label for="vitrithem">Thêm vào vị trí:</label>
+        			<input type="text" id="vitrithem">
+        			<label for="thempt">Giá trị:</label>
+        			<input type="text" id="thempt">
+        			<button onclick="thempt()">Thêm</button>
+        		</td>
+        	</tr>
+        </table>
+    </div>
+</body>
+</html>

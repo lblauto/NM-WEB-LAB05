@@ -1,0 +1,37 @@
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #F8F8F8;
+		}
+		h3 {
+			color: #CC6600;
+		}
+		table {
+			margin: 0 auto;
+			border: 1px solid #CCCCCC;
+			border-collapse: collapse;
+			background-color: #FFFFCC;
+		}
+		td {
+			padding: 8px;
+		}
+		#HoTen {
+			width: 250px;
+			padding: 5px;
+			border: 1px solid #CCCCCC;
+			border-radius: 4px;
+		}
+		#phantich {
+			padding: 5px 10px;
+			background-color: #CC6600;
+			color: #FFFFFF;
+			border: none;
+			border-radius: 4px;
+			cursor: pointer;
+		}
+		#phantich:hover {
+			background-color: #FF9900;
+		}
+		label {
+			color: blue;
+			font-weight: bold;
+		}

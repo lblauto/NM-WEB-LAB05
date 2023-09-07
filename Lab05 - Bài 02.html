@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Bài tập JavaScript (NC) - In thứ ngày tháng năm sinh</title>
+	<link rel="stylesheet" type="text/css" href="Lab05 - Bài 02.css">
+	<script src="Lab05 - Bài 02.js"></script>
+</head>
+<body>
+	<h3>Nhập ngày tháng năm sinh của bạn</h3>
+	<form>
+		<table>
+			<tr>
+				<td>Ngày: <input type="text" id="ngay" size="5"> Tháng: <input type="text" id="thang" size="5"> Năm: <input type="text" id="nam" size="10"></td>
+			</tr>
+			<tr>
+				<td align="center" id="xuat-container">
+					<label id="xuat"></label>
+				</td>
+			</tr>
+			<tr>
+				<td align="center">
+					<input type="button" value="Xuất thứ ngày tháng năm sinh" onClick="xuat.innerText=xuatNgaySinh(ngay.value, thang.value, nam.value)">
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

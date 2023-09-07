@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title>Bài tập JavaScript (NC) - Tính cạnh huyền</title>
+	<link rel="stylesheet" type="text/css" href="Lab05 - Bài 05.css">
+	<script src="Lab05 - Bài 05.js"></script>
+</head>
+<body>
+	<h3>Tính cạnh huyền</h3>
+	<form>
+		<table border="0" cellspacing="0" cellpadding="0">
+		<tr>
+			<td>Cạnh A:</td>
+			<td><input type="text" id="A"></td>
+		</tr>
+		<tr>
+			<td>Cạnh B:</td>
+			<td><input type="text" id="B"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input type="button" value="Tính" onclick="xuat.innerText=tinh(A.value, B.value)"></td>
+		</tr>
+		<tr>
+			<td>Cạnh huyền:</td>
+			<td align="center"><label id="xuat"></label></td>
+		</tr>
+		</table>
+	</form>
+</body>
+</html>
